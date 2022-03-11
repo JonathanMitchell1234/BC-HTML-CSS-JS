@@ -1,0 +1,1136 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+   #masthead {
+    position: relative;
+  }
+  
+  #features {
+    text-align: center;
+  }
+  
+  #features img {
+    margin: 0 0 20px;
+  }
+  
+  #inputMessage {
+    margin-bottom: 15px;
+  }
+  
+  .row-teal {
+    background-color:#79ccc7;
+  }
+  
+  .row-blue {
+    background-color:#4f7fbd;
+    margin-bottom: 40px;
+  }
+  
+  #sidebar {
+    color: #0077a2;
+  }
+  
+  footer {
+    background: #328888;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  /* --------------------------------------
+     Navbar Custom Styles
+     -------------------------------------- */
+  .navbar {
+      border-radius: 0px;
+      margin-bottom: 0;
+  }
+  
+  
+  .navbar-nav {
+    margin: 0 0 0 10px;
+  }
+  
+  .nav > li > a, .navbar-brand { padding: 10px 19px; }
+  
+  
+  .dropdown .dropdown-menu {
+    font-size: 13px;
+  }
+  
+  .social-icons-container {
+    margin-top: 8px;
+    margin-right: 40px;
+  }
+  
+  .social-icons {
+    padding: 0 10px;
+  }
+  
+  /* --------------------------------------
+     Typography
+     -------------------------------------- */
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 16px;
+    color: #5a5a5a;
+  }
+  
+  
+  .well .page-header {
+    margin-top: 0;
+  }
+  
+  .well .page-header h1 {
+    margin-top: 0;
+  }
+  
+  ul.unstyled {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #main-content h2 {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+  }
+  
+  #main-content h3 {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+    color: #ee631e;
+  }
+  
+  #sidebar h3 {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+  }
+  
+  
+  /* --------------------------------------
+     Masthead
+     -------------------------------------- */
+  
+  .masthead-brand {
+    padding: 5px 5px;
+  }
+  
+  .contact {
+    position: absolute !important;
+    top: -100px !important;
+    right: 20px !important;
+  }
+  
+  .donate {
+    position: absolute !important;
+    top: 0px !important;
+    right: 240px !important;
+    
+  }
+
+ 
+  
+  .hiring {
+    position: absolute;
+    top: 0px;
+    right: 442px;
+    z-index: 9999;
+  }
+  
+  .search {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    width: 50%;
+  }
+  
+  /* --------------------------------------
+     Navbar
+     -------------------------------------- */
+  #searchInput {
+    width: 200px;
+  }
+     
+     
+  /* --------------------------------------
+     Carousel
+     -------------------------------------- */
+  
+  #myCarousel { margin-top: 0px; }
+  
+  .carousel-caption {font-size: 24px;}
+  
+  .carousel-caption h4 {font-size: 32px;}
+  
+  .carousel-indicators li {margin:2px;}
+  
+  .carousel-indicators .active {margin:2px; width:10px; height: 10px;}
+  
+  #myCarousel .item { /*height: 693px;*/ }
+  
+  /* #slide1 {
+    background: url('../../images/carousel_desktop_01.jpg') top center no-repeat;)
+  }
+  
+  #slide2 {
+    background: url('../../images/carousel_medium_02.jpg') top center no-repeat;)
+  }
+  
+  #slide3 {
+    background: url('../../images/carousel_medium_03.jpg') top center no-repeat;)
+  }*/
+  
+  
+  
+  /* --------------------------------------
+     Latest News & Agency Happenings Panels
+     -------------------------------------- */
+  
+  .panel-heading {
+    padding: 10px 15px 0;
+  }
+  
+  #latest-news {
+    background-color: #2d8838;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 0;
+    border: none;
+  }
+  
+  #latest-news p {
+    padding: 70px 20px 20px 60px;
+    color: #fff;
+  }
+  
+  #latest-news ul {
+    padding: 70px 20px 20px 80px;
+  }
+  
+  #latest-news li {
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 18px;
+  }
+  
+  #latest-news a {
+    color: #fff;
+  }
+  
+  #news-heading {
+    position: relative;
+    background-color: #c8c8c8;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  #news-heading h3 {
+    color: #004c85;
+    margin-right: 20px;
+    display: block;
+    font-family: 'Gotham Cond 3r', 'Gotham Cond A', 'Gotham Cond B'; 
+    font-weight: 300; 
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1.3px;
+  }
+  
+  
+  #news-heading h3 b {
+    font-family: 'Gotham Cond 5r', 'Gotham Cond A', 'Gotham Cond B'; 
+    font-weight: 500; 
+    font-style: normal;
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  .news-badge {
+    position: absolute;
+    top: 15px;
+    display: block;
+    z-index: 0;
+  }
+  
+  #events {
+    background-color: #ed6129;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 0;
+    border: none;
+  }
+  
+  #events ul {
+    padding: 70px 20px 20px 80px;
+  }
+  
+  #events li {
+    color: #fff;
+  }
+  
+  #events a {
+    color: #fff;
+  }
+  
+  #events-heading {
+    position: relative;
+    background-color: #c8c8c8;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  #events-heading h3 {
+    color: #004B85;
+    margin-right: 20px;
+    display: block;
+    font-family: 'Gotham Cond 3r', 'Gotham Cond A', 'Gotham Cond B'; 
+    font-weight: 300; 
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1.2px;
+  }
+  
+  #events-heading h3 b {
+    font-family: 'Gotham Cond 5r', 'Gotham Cond A', 'Gotham Cond B'; 
+    font-weight: 500; 
+    font-style: normal;
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  .events-badge {
+    position: absolute;
+    top: 15px;
+    display: block;
+    z-index: 0;
+  }
+  
+  /* --------------------------------------
+     Default Page Styles
+     -------------------------------------- */
+  
+  .default-title {
+    padding: 30px 0 0;
+  }
+  
+  /* --------------------------------------
+     Leadership Page Styles
+     -------------------------------------- */
+  
+  .leadership {
+    padding-bottom: 30px;
+  }
+  
+  .img-leadership {
+    margin-bottom: 7px;
+  }
+  
+  
+  h3.name {
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  
+  /* --------------------------------------
+     Sidebar Styles
+     -------------------------------------- */
+  
+  
+  #sidebar-nav {
+    margin: 40px 0 20px;
+    text-align: left;
+  }
+  
+  #sidebar-nav ul {
+    color:#ee631e;
+    text-align: left;
+    padding-left: 20px;
+    list-style: none;
+    text-indent: -0.75em;
+  }
+  
+  #sidebar-nav ul li:before {
+    content: "\00BB \0020";
+  }
+  
+  #sidebar-nav li a {
+    color:#0077a2;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .sidebar-nav-title {
+    font-weight: bold;
+    color: #ee631e;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .sidebar-title {
+    font-weight: bold;
+    color: #ee631e;
+    font-size: 24px;
+  }
+  
+  .sidebar-nav-top {
+    width: 100%;
+    border-top: 4px solid #0077A2;
+  }
+  
+  .sidebar-nav-bottom {
+    width: 100%;
+    border-bottom: 4px solid #0077A2;
+  }
+  
+  #sidebar-item {
+    margin: 40px 0;
+  }
+  
+  #sidebar-item ul {
+    color:#0077a2;
+    text-align: left;
+    padding-left: 15px;
+    list-style: none;
+    text-indent: -0.8em;
+  }
+  
+  #sidebar-item ul li:before {
+    content: "\00BB \0020";
+  }
+  
+  #sidebar-item li a {
+    color:#0077a2;
+  }
+  
+  #sidebar-item .news {
+    margin-bottom: 10px;
+  }
+  
+  #sidebar-impact {
+    margin: 40px 0 70px;
+    color: #a0a0a0;
+    line-height: 20px;
+  }
+  
+  #sidebar-impact b, #sidebar-impact strong  {
+    font-family: 'Gotham Cond 5r', 'Gotham Cond A', 'Gotham Cond B'; 
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 60px;
+    color: #0077A2;
+    line-height: 55px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+  }
+  
+  #sidebar-impact p {
+    clear: both;
+  }
+  
+  .current {
+    background-color: #ECECEC;
+    padding: 2px;
+  }
+  
+  
+  /* --------------------------------------
+     Program Page Styles
+     -------------------------------------- */
+  
+  #main-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  #main-content h1 {
+    color: #03769C;
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+    margin: 0 0 30px;
+  }
+  
+  .vision {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+    color: #ee631e;
+    font-size: 20px;
+  }
+  
+  #main-content h2 {
+    color: #ee631e;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+  }
+  
+  #main-content p {
+    margin-bottom: 20px;
+  }
+  
+  #main-content li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-help {
+      background-image: linear-gradient(to bottom, #d9944e 0%, #ea7312 100%);
+      background-repeat: repeat-x;
+      border-color: #EE631E;
+      color: #fff;
+      margin: 0 auto;
+      width: 100%;
+  }
+  
+  #photo-gallery {
+    margin-bottom: 20px;
+  }
+  
+  /* --------------------------------------
+     News Styles
+     -------------------------------------- */
+  
+  article {
+    margin: 0 20px;
+  }
+  
+  .news-title {
+    padding: 10px 20px;
+  }
+  
+  .news-date {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .news-excerpt h3 {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800;
+    margin-top: 0;
+  }
+  
+  .news-excerpt p {
+    margin-bottom: 10px !important;
+  }
+  
+  .news-hero-img {
+    margin-top:-20px;
+    margin-bottom:15px;
+  }
+  
+  .news-pagination {
+    margin-left:20px;
+  }
+  
+  .btn-news {
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  /* --------------------------------------
+     Events Styles
+     -------------------------------------- */
+  
+  .events-title {
+    padding: 10px 0;
+  }
+  
+  .events-title-detail {
+    padding: 25px 0 0 20px;
+  }
+  
+  .event-thumb {
+    margin-bottom: 10px;
+  }
+  
+  
+  .events-date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  h3.event-date {
+    margin-top: 0px;
+  }
+  
+  .event-date-detail {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .events-excerpt h3 {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800;
+    margin-top: 0;
+  }
+  
+  .events-excerpt p {
+    margin-bottom: 15px !important;
+  }
+  
+  .events-pagination {
+    margin-left:20px;
+  }
+  
+  .events-image {
+    margin-top:-20px;
+    margin-bottom:15px;
+  }
+  
+  .btn-events {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* --------------------------------------
+     Careers Styles
+     -------------------------------------- */
+  
+  .careers-title {
+    padding: 30px 0 0;
+  }
+  
+  /* --------------------------------------
+     Community Partners Styles
+     -------------------------------------- */
+  
+  .community-partners-list {
+    list-style: none;
+  }
+  
+  /* --------------------------------------
+     Outcomes Styles
+     -------------------------------------- */
+  
+  .outcome-title {
+    margin-left: 15px;
+  }
+  
+  /* --------------------------------------
+     Abila Form Styles
+     -------------------------------------- */
+  
+  .kimbiaInnerDiv {
+    margin-top: -20px;
+  }
+  
+  .groupLabel {
+    font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    font-weight: 800; 
+    font-style: normal;
+    color: #ee631e;
+  }
+  
+  .k_radioCB {
+    font-weight: normal;
+  }
+  
+  .k_text {
+    font-weight: normal;
+  }
+  
+  label.k_required {
+    font-weight: normal !important;
+  }
+  
+  .k_required::after {
+    content: "*";
+  }
+  
+  input.k_text {
+    border-radius: 3px;
+    padding: 2px;
+    margin-bottom: 1em;
+  }
+  
+  div.kimbiaDiv button.k_button.forward {
+      display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+  }
+  
+  
+  button.k_button.forward:hover, button.k_button.forward:focus {
+    color: #ee631e;
+    text-decoration: none;
+  }
+  
+  .k_embedThisFormButton {
+    visibility: hidden;
+  }
+  
+  .k_addRegistrant {
+    margin-right: 10px;
+  }
+  
+  .k_discardRegistrant {
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  /* --------------------------------------
+     Footer Styles
+     -------------------------------------- */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .footer-link {
+    color: #fff;
+  }
+  
+  .footer-logo {
+    padding-right: 25px;
+  }
+  
+  .footer-nav {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+  }
+  
+  .footer-social {
+    font-size: 14px;
+    padding-left: 40px;
+    line-height: 36px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+  }
+  
+  .twitter {
+    background: url('../img/icon-twitter.png') center left no-repeat;)
+  }
+  
+  .facebook {
+   
+    
+  }
+  
+  .youtube {
+    background: url('../img/icon-youtube.png') center left no-repeat;)
+  }
+  
+  footer .form-control {
+    background-color: #fdf9f9 !important;
+    color: #fff;
+  }
+  
+  footer .form-control::-moz-placeholder {
+    color: #fff;
+  }
+  
+  .credit {
+    font-size: 12px;
+  }
+  
+  
+  
+  /* --------------------------------------
+     Global Styles
+     -------------------------------------- */
+  .alert {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .well {
+    margin: 20px 0;
+  }
+  
+  .jumbotron {
+      background-color: #fff;
+      margin-bottom: 10px;
+  }
+  
+  .jumbotron h3 {
+      font-family: 'Archer 4r', 'Archer A', 'Archer B'; 
+      font-weight: 400; 
+      font-style: normal;
+      font-size: 36px;
+    }
+  
+  /* enable for full width well 
+  .full-width {
+    margin-left: -20px;
+    margin-right: -20px;
+  }*/
+  
+  .tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
+  }
+  
+  .thumbnails {
+    margin: 20px 0;
+  }
+  
+  .thumbnail {
+    position: relative;
+  }
+  
+  .thumbnail h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+  }
+  
+  .thumbnail .price {
+    font-size: 22px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px;
+  }
+  
+  .thumbnail .price sup {
+    font-weight: normal;
+    font-size: 12px;	
+  }
+  
+  .thumbnail span.glyphicon {
+    margin-right: 5px;
+  }
+  
+  .red {
+    color: #e64136;
+  }
+  
+  .teal {
+    color: #009e82;
+  }
+  
+  .info-graphic {
+    padding: 60px;
+  }
+  
+  .btn-subscribe {
+    color: #fff;
+    background-color: #6a6b6b;
+    border-color: #ccc;
+  }
+  .btn-subscribe:hover,
+  .btn-subscribe:focus,
+  .btn-subscribe:active,
+  .btn-subscribe.active,
+  .open > .dropdown-toggle.btn-subscribe {
+    color: #fff;
+    background-color: #f9fcfc;
+    border-color: #ccc;
+  }
+  .btn-subscribe:active,
+  .btn-subscribe.active,
+  .open > .dropdown-toggle.btn-subscribe {
+    background-image: none;
+  }
+  .btn-subscribe.disabled,
+  .btn-subscribe[disabled],
+  fieldset[disabled] .btn-subscribe,
+  .btn-subscribe.disabled:hover,
+  .btn-subscribe[disabled]:hover,
+  fieldset[disabled] .btn-subscribe:hover,
+  .btn-subscribe.disabled:focus,
+  .btn-subscribe[disabled]:focus,
+  fieldset[disabled] .btn-subscribe:focus,
+  .btn-subscribe.disabled:active,
+  .btn-subscribe[disabled]:active,
+  fieldset[disabled] .btn-subscribe:active,
+  .btn-subscribe.disabled.active,
+  .btn-subscribe[disabled].active,
+  fieldset[disabled] .btn-subscribe.active {
+    background-color: #f5fafa;
+    border-color: #ccc;
+  }
+  .btn-subscribe .badge {
+    color: #686969;
+    background-color: #fff;
+  }
+  
+  /* --------------------------------------
+     Media Queries
+     -------------------------------------- */
+  
+  /* Portrait & landscape phone */
+  @media (max-width: 480px) {
+    
+    .social-icons {
+      padding: 0 10px 15px;
+    }
+    
+    .search-mobile {
+      width: 35% !important;
+      margin: 0 0 15px 15px;
+    }
+    
+    .thumbnail .price {
+      font-size: 14px;
+    }
+    
+    .thumbnail .price sup {
+      font-size: 10px;
+    }
+    
+    .jumbotron {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .jumbotron h3 {
+      font-size: 24px!important;
+      font-weight: 300;
+    }
+    
+    .info-graphic {
+      padding: 20px;
+    }
+    
+    #news-heading h3 {
+      font-size: 20px !important;
+      margin-right: 10px;
+      letter-spacing: 1.0px;
+    }
+    
+    #news-heading h3 b {
+      font-size: 32px !important;
+    }
+    
+    #latest-news p {
+      padding: 20px 20px 20px 40px;
+    }
+    
+    #latest-news ul {
+      padding: 20px 20px 20px 60px;
+    }
+    
+    .news-badge {
+      display: block;
+      position: absolute;
+      top: 5px !important;
+      height: 60px !important;
+    }
+    
+    #events-heading h3 {
+      font-size: 20px !important;
+      margin-right: 10px;
+      letter-spacing: 1.0px;
+    }
+    
+    #events-heading h3 b {
+      font-size: 32px !important;
+    }
+    
+    #events ul {
+      padding: 20px 20px 20px 60px;
+    }
+    
+    .events-badge {
+      display: block;
+      position: absolute;
+      top: 5px !important;
+      height: 60px !important;
+    }
+    
+    #main-content h1 {
+    font-size: 24px;
+  }
+
+    .footer-logo {
+      padding-right: 15px;
+    }
+    
+  }
+  
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+  
+    .masthead-brand {
+      padding: 13px 15px;
+      text-align: center;
+      max-width: 100%;
+    }
+    
+    
+
+    .footer-logo {
+      padding: 15px;
+      margin-right: 45px;
+      display: inline;
+      align-items: center;
+
+    }
+
+    .footer-social {
+      
+      margin-top: 2px;
+      margin-bottom: 2px;
+      margin-left: -40px;
+      display: inline;
+      justify-content: right;
+    }
+
+    
+    
+    .search-mobile {
+      width: 40%;
+      margin: 0 0 15px 15px;
+    }
+    
+    #myCarousel .item { /*height: 310px;*/ }
+  
+    /*#slide1 {
+      background: url('../../images/carousel_small_01.jpg') top center no-repeat;)
+    }
+    
+    #slide2 {
+      background: url('../../images/carousel_small_02.jpg') top center no-repeat;)
+    }
+    
+    #slide3 {
+      background: url('../../images/carousel_small_03.jpg') top center no-repeat;)
+    }*/
+    
+    .carousel-caption {font-size: 16px;}
+  
+    .carousel-caption h4 {font-size: 22px;}
+    
+    .jumbotron h3 {
+      font-size: 24px;
+      font-weight: 200;
+    }
+    
+    #news-heading h3 {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+    
+    #news-heading h3 b {
+      font-size: 36px !important;
+    }
+    
+    .news-badge {
+      display: block;
+      position: absolute;
+      top: 10px;
+      height: 90px;
+    }
+    
+    #events-heading h3 {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+    
+    #events-heading h3 b {
+      font-size: 36px !important;
+    }
+    
+    .events-badge {
+      display: block;
+      position: absolute;
+      top: 10px;
+      height: 90px;
+    }
+    
+    .nav > li > a, .navbar-brand { padding: 10px 10px; }
+    
+  }
+  
+  @media (max-width: 400px) {
+    
+    .search {
+      position: absolute;
+      top: 110px;
+      right: 20px;
+      width: 37%;
+    }
+    
+    #news-heading h3 {
+      font-size: 24px;
+    }
+    
+    #news-heading h3 b {
+      font-size: 40px;
+    }
+    
+    .news-badge {
+      display: block;
+      position: absolute;
+      top: 10px;
+      height: 90px;
+    }
+    
+    #events-heading h3 {
+      font-size: 24px;
+    }
+    
+    #events-heading h3 b {
+      font-size: 40px;
+    }
+    
+    .events-badge {
+      display: block;
+      position: absolute;
+      top: 10px;
+      height: 90px;
+    }
+  }
+  
+  /* Large desktop */
+  @media (min-width: 1200px) {
+  
+    #myCarousel .item { /*height: 693px;*/ }
+  
+    /*#slide1 {
+      background: url('../../images/carousel_desktop_01.jpg') top center no-repeat;)
+    }
+    
+    #slide2 {
+      background: url('../../images/carousel_large_02.jpg') top center no-repeat;)
+    }
+    
+    #slide3 {
+      background: url('../../images/carousel_large_03.jpg') top center no-repeat;)
+    }*/
+    
+  }
+

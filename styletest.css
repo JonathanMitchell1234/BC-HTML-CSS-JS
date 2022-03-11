@@ -1,0 +1,56 @@
+footer {
+  background: #406b87 !important;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 12px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer-social {
+  background: none !important;
+}
+
+.btn-subscribe {
+  color: #fff;
+  background-color: #6a6b6b !important;
+  border-color: #ccc;
+}
+
+footer .form-control {
+  background-color: #3a3939 !important;
+  color: rgb(10, 10, 10) !important;
+}
+
+.social-icons-container {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 280px) {
+  .footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background: lightgray !important ;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+  .footer {
+    margin-left: 10px;
+  }
+}
