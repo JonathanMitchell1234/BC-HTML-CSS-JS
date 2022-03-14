@@ -54,3 +54,43 @@ footer .form-control {
     margin-left: 10px;
   }
 }
+
+.fb-page {
+  border-style: solid;
+  border-color: #e4e2e2;
+}
+
+.twitter-timeline {
+  border-style: solid !important;
+  border-color: #e4e2e2 !important;
+
+
+}
+
+/* /* @media screen and (max-width: 1000px) {
+  .fb-page {
+  display: block;
+  width: 100px;
+ 
+  }
+} */
+
+@media screen and (max-width: 1000px) {
+  .fb-page {
+  display: none !important;
+  
+  }
+} 
+
+@media screen and (max-width: 1000px) {
+  .twitter-timeline {
+  display: none !important;
+  
+  }
+} 
+/* @media (max-width: 767px) {
+  
+
+  .fb-page .twitter-timeline {
+    flex-direction: column;
+    width: 10%; */
