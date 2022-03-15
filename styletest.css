@@ -57,12 +57,12 @@ footer .form-control {
 
 .fb-page {
   border-style: solid;
-  border-color: #e4e2e2;
+  border-color: #548701;
 }
 
 .twitter-timeline {
   border-style: solid !important;
-  border-color: #e4e2e2 !important;
+  border-color: #548701 !important;
 
 
 }
@@ -94,3 +94,45 @@ footer .form-control {
   .fb-page .twitter-timeline {
     flex-direction: column;
     width: 10%; */
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: -0;
+      transition: .5s ease-in;
+      background-color: #fed51c;
+    }
+    
+    .container:hover .overlay {
+      opacity: 100%;
+      font-family: 'Archer 8r', 'Archer A', 'Archer B';
+    }
+    
+    .text {
+      color: white;
+      font-weight: 800;
+      font-size: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
