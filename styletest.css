@@ -53,6 +53,10 @@ footer .form-control {
   .footer {
     margin-left: 10px;
   }
+  .social-icons-container {
+    float: left !important;
+
+  }
 }
 
 .fb-page {
@@ -95,12 +99,12 @@ footer .form-control {
     flex-direction: column;
     width: 10%; */
 
-    .container {
+    /* .container {
       position: relative;
       width: 30%;
       float: left;
       margin-top: 10px;
-    }
+    } */
     
     .image2 {
       display: inline-block;
@@ -146,3 +150,33 @@ footer .form-control {
   }
 }
 
+
+
+.big-stat {
+  animation: anim1 .7s ease-out;
+}
+.big-stat {
+  animation: anim2 .7s ease-out;
+}
+
+@keyframes anim1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-30rem) rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    opacity: 0;
+    transform: translateX(30rem) rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
