@@ -102,7 +102,7 @@ footer .form-control {
       margin-top: 10px;
     }
     
-    .image {
+    .image2 {
       display: inline-block;
       width: 100%;
       height: auto;
@@ -138,3 +138,11 @@ footer .form-control {
       transform: translate(-50%, -50%);
       text-align: center;
     }
+
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
