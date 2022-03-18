@@ -188,7 +188,8 @@ footer .form-control {
 
 
 a.donate-now-link {
-  animation: jump-shaking 2s;
+  animation: jump-shaking 1s;
+  /* animation-delay: 1.5s; */
 }
 
 
@@ -204,3 +205,30 @@ a.donate-now-link {
   100% { transform: translateY(0) rotate(0) }
 }
 
+
+
+/* a.donate-now-link {
+  animation: tilt-shaking 3s;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+} */
+
+
+/* a.donate-now-link {
+  animation: vertical-shaking 2s;
+}
+
+
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(20px) }
+  50% { transform: translateY(-20px) }
+  75% { transform: translateY(20px) }
+  100% { transform: translateY(0) }
+} */
