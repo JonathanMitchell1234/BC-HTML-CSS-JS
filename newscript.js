@@ -1,3 +1,4 @@
+// Intersection Observer for large stat
 const images = document.querySelectorAll('.big-stat');
 
 observer = new IntersectionObserver((entries) => {
@@ -10,6 +11,8 @@ observer = new IntersectionObserver((entries) => {
   });
 });
 
+
+// Intersection Observer for Donate Now link
 images.forEach(image => {
   observer.observe(image);
 });

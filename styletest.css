@@ -110,6 +110,7 @@ footer .form-control {
       display: inline-block;
       width: 100%;
       height: auto;
+      box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.2);
     }
     
     .overlay {
@@ -232,3 +233,11 @@ a.donate-now-link {
   75% { transform: translateY(20px) }
   100% { transform: translateY(0) }
 } */
+
+ /* Override original CSS to make BP Board of Directors Photo Responsive */
+ [src='https://www.brightoncenter.com/images/uploads/site_images/Brighton_Properties_Board_of_Directors_FY22.png'] {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+
