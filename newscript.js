@@ -11,12 +11,11 @@ observer = new IntersectionObserver((entries) => {
   });
 });
 
-
-// Intersection Observer for Donate Now link
 images.forEach(image => {
   observer.observe(image);
 });
 
+// Intersection Observer for Donate Now link
 const link = document.querySelectorAll('.donate-now-link');
 
 observer = new IntersectionObserver((entries) => {
