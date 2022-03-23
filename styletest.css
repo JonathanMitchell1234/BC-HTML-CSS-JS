@@ -45,6 +45,7 @@ footer .form-control {
     flex-direction: column !important;
     align-items: center !important;
     background: lightgray !important ;
+    
   }
   .footer {
     display: flex;
@@ -245,5 +246,6 @@ a.donate-now-link {
 
 
 }
+
 
 
