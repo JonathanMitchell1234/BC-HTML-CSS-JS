@@ -1,3 +1,24 @@
+// const link2 = document.querySelectorAll('.latest-news-events');
+
+// observer = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     if (entry.intersectionRatio > 0) {
+//       entry.target.classList.add('latest-news-events');
+//     } else {
+//       entry.target.classList.remove('latest-news-events');
+//     }
+//   });
+// });
+
+// link.forEach(link2 => {
+//   observer.observe(link2);
+// });
+
+
+
+
+
+
 // Intersection Observer for large stat
 const images = document.querySelectorAll('.big-stat');
 
@@ -141,3 +162,38 @@ function animateValue(id, start, end, duration) {
 
 animateValue("value3", 0, 31, 5000);
 
+
+// const div = document.querySelector("news-panel")
+
+// const callback = (entries, observer) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add("jump-shaking")
+//     }
+//   })
+// }
+
+// const options = {}
+
+// const myObserver = new IntersectionObserver(callback, options)
+
+// myObserver.observe(div)
+
+
+
+
+// const div = document.querySelectorAll('.news-panel');
+
+// observer = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     if (entry.intersectionRatio > 0) {
+//       entry.target.classList.add('news-panel');
+//     } else {
+//       entry.target.classList.remove('news-panel');
+//     }
+//   });
+// });
+
+// div.forEach(div => {
+//   observer.observe(div);
+// });
