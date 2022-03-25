@@ -266,7 +266,7 @@ a.donate-now-link {
 
 
 
-.news-panel , .services-container {
+.news-panel , .video-section {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
       -ms-animation: fadein 2s; /* Internet Explorer */
@@ -303,7 +303,17 @@ a.donate-now-link {
   to   { opacity: 1; }
 }
 
+.response {
+  color: #eac421 !important;
+}
 
-
+.services-container li:hover {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -webkit-transform: scale(1.3);
+	transform: scale(1.1)
+}
 
 

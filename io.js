@@ -47,3 +47,21 @@ div.forEach(div => {
 // container.forEach(container => {
 //   observer.observe(container;
 // });
+
+
+
+// const span = document.querySelectorAll('.value');
+
+// observer = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     if (entry.intersectionRatio > 0) {
+//       entry.target.classList.add('value');
+//     } else {
+//       entry.target.classList.remove('value');
+//     }
+//   });
+// });
+
+// span.forEach(span => {
+//   observer.observe(span);
+// });
