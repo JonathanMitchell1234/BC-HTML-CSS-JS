@@ -367,4 +367,9 @@ a.donate-now-link {
   text-align: center;
 }
 
-
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 12px !important;
+  }
+}
