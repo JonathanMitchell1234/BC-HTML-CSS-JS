@@ -13,51 +13,49 @@ font-family: 'Rokkitt', serif;
  }
  
  .phone-number {
-   color: $blue;
-   font-family: "Rokkitt", serif;
-   font-weight: 500;
-   display: block;
-   font-size: 24px;
-   text-align: center;
-   margin-top: 10px;
- }
- 
- .were-hiring-link {
-   color: $blue;
-   font-family: "Rokkitt", serif;
-   font-weight: 500;
-   font-size: 24px;
-   display: block;
-   margin: 50px auto 0 auto !important;
-   text-align: center !important;
-   white-space: nowrap;
-   margin-left: 255px !important;
-   position: absolute !important;
- }
- 
- .contact-us-link {
-   color: $blue;
-   font-family: "Rokkitt", serif;
-   font-weight: 500;
-   font-size: 24px;
-   display: block;
-   margin: 50px auto 0 auto;
-   text-align: center;
-   white-space: nowrap;
- }
- 
- .donate-now-link {
-   color: #558700;
-   font-family: "Rokkitt", serif;
-   font-weight: 700;
-   text-transform: uppercase;
-   font-size: 24px;
-   display: block;
-   margin: -32px auto 0 auto !important;
-   text-align: center;
-   white-space: nowrap;
-   margin-right: 255px !important;
- }
+  color: $blue;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.were-hiring-link {
+  color: $green;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  font-size: 24px;
+  display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  
+}
+
+.contact-us-link {
+  color: $blue;
+  font-family: 'Rokkitt', serif;
+  font-weight: 500;
+  font-size: 24px;
+  display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.donate-now-link {
+  color: #558700;
+  font-family: 'Rokkitt', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
  
  /*
   navigation
@@ -517,7 +515,8 @@ font-family: 'Rokkitt', serif;
    .contact-us-link {
      position: relative !important;
      margin: 100px !important;
-     display: none !important;
+     width: 100% !important;
+     
    }
  }
  
@@ -676,3 +675,6 @@ font-family: 'Rokkitt', serif;
  .disabled {
    pointer-events: none !important;
  }
+
+
+ 

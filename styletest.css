@@ -334,6 +334,7 @@ a.donate-now-link {
   width: 100%;
   height: auto;
   box-shadow: -18px 11px 20px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 .overlay {
@@ -347,6 +348,7 @@ a.donate-now-link {
   opacity: -0;
   transition: .5s ease-in;
   background-color: #fed51c;
+  border-radius: 50%;
 }
 
 .container:hover .overlay {
@@ -371,5 +373,8 @@ a.donate-now-link {
 @media screen and (max-width: 600px) {
   .text {
     font-size: 12px !important;
+    
   }
 }
+
+

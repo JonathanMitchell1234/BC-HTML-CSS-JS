@@ -9,7 +9,7 @@ font-family: 'Rokkitt', serif;
 
 .phone-number {
   color: #0e4977;
-  font-family: "Rokkitt", serif;
+  font-family: 'Rokkitt', serif;
   font-weight: 500;
   display: block;
   font-size: 24px;
@@ -18,21 +18,19 @@ font-family: 'Rokkitt', serif;
 }
 
 .were-hiring-link {
-  color: #0e4977;
-  font-family: "Rokkitt", serif;
+  color: #558700;
+  font-family: 'Rokkitt', serif;
   font-weight: 500;
   font-size: 24px;
   display: block;
-  margin: 50px auto 0 auto !important;
-  text-align: center !important;
+  margin: 50px auto 0 auto;
+  text-align: center;
   white-space: nowrap;
-  margin-left: 255px !important;
-  position: absolute !important;
 }
 
 .contact-us-link {
   color: #0e4977;
-  font-family: "Rokkitt", serif;
+  font-family: 'Rokkitt', serif;
   font-weight: 500;
   font-size: 24px;
   display: block;
@@ -43,15 +41,14 @@ font-family: 'Rokkitt', serif;
 
 .donate-now-link {
   color: #558700;
-  font-family: "Rokkitt", serif;
+  font-family: 'Rokkitt', serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 24px;
   display: block;
-  margin: -32px auto 0 auto !important;
+  margin: 50px auto 0 auto;
   text-align: center;
   white-space: nowrap;
-  margin-right: 255px !important;
 }
 
 /*
@@ -541,7 +538,7 @@ font-family: 'Rokkitt', serif;
   .contact-us-link {
     position: relative !important;
     margin: 100px !important;
-    display: none !important;
+    width: 100% !important;
   }
 }
 
