@@ -350,14 +350,13 @@
       </div>
       <!-- /.navbar .navbar-inverse -->
      <div class="heroimage">
-         <p class="wea">Who We Are</p>
-         <div class="content-slider">
+       <p class="wea">Who We Are</p>
+        <div class="content-slider">
             <div class="slider">
               <div class="mask">
                 <ul>
                   <li class="anim1">
                     <div class="quote">"Kindness begins with the understanding that we all struggle." <br>-Charles Glassman</div>
-                    
                   </li>
                   <li class="anim2">
                     <div class="quote">"We all have different gifts, so we all have different ways of telling the world who we are."<br>-Fred Rogers</div>
@@ -372,9 +371,8 @@
                     
                   </li>
                   <li class="anim5">
-                    <div class="quote">No one is useless in this world who lightens the burdens of another.<br>-Charles Dickens</div>
-                    
-                  </li>
+                    <div class="quote">No one is useless in this world who lightens the burdens of another."<br>-Charles Dickens</div>
+                    </li>
                 </ul>
               </div>
             </div>
@@ -383,7 +381,41 @@
 
 
      </div>
-     
+     <div class="whowearecards">
+     <ul class="cards">
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--fence"></div>
+          <div class="card__content">
+            <div class="card__title">Board of Directors</div>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate incidunt corporis voluptatum inventore explicabo laboriosam, ratione saepe possimus voluptates eveniet. </p>
+            <button class="btn btn--block card__btn">learn more</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--river"></div>
+          <div class="card__content">
+            <div class="card__title">Financial Responsibility</div>
+            <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus animi neque ab illum accusamus tenetur sed vero minus explicabo perspiciatis.</p>
+            <button class="btn btn--block card__btn">learn more</button>
+          </div>
+        </div>
+      </li>
+      
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--flowers"></div>
+          <div class="card__content">
+            <div class="card__title">Leadership Team</div>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a iste quas quisquam necessitatibus id totam reiciendis in ipsum quibusdam.</p>
+            <button class="btn btn--block card__btn">learn more</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+    </div>
       <!-- end container-fluid -->
       <footer>
          <div class="container-fluid">
@@ -531,6 +563,11 @@
          	$('.news_panels').matchHeight();
          });
       </script>
+      <script type="text/javascript">
+         $(function() {
+           $('.cards').matchWidth();
+         });
+       </script>
       <script>
          $(document).ready(function(){
              $('a').not('.excludeNivo').nivoLightbox();
