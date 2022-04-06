@@ -1,0 +1,52 @@
+.heroimage {
+    background-image: url("whoweare.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+
+.wea {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: 'Rokkitt', serif;
+    text-shadow: 4px 2px 2px #000000;
+    animation: 2s anim-popoutin ease ;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: #f8fbfa;
+    transform: scale(0);
+    opacity: 0;
+    
+  }
+  25% {
+    color: #f5f4f1;
+    transform: scale(2);
+    opacity: 1;
+    
+  }
+  50% {
+    color: #f9f8f5;
+    transform: scale(1);
+    opacity: 1;
+   
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    
+  }
+}
+    
+.quote {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 30px;
+    color: white;
+}
