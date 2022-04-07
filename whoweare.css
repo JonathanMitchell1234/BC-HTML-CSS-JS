@@ -322,7 +322,7 @@
   background: 
   linear-gradient(to bottom right, #cb0a0a 50%, transparent 50.5%) no-repeat bottom,
   /* bottom part */
-  linear-gradient(0deg, #027f51, #fddc49) no-repeat top;
+  linear-gradient(0deg, #027f51, #027f51) no-repeat top;
 /* top portion */
 color: rgb(59, 59, 59);
 padding-bottom: 3em;
@@ -428,29 +428,29 @@ img {
     padding-top: 66.6%;
   }
 }
-.card__image--fence {
-  background-image: url(https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
+.card__image--properties {
+  background-image: url(https://www.brightoncenter.com/images/uploads/hero/BrightonProperties2.jpg);
 }
-.card__image--fence {
-  background-image: url(https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
-}
-.card__image--fence {
-  background-image: url(https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
+.card__image--careers {
+  background-image: url(https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
 .card__image--strategy {
-  background-image: url(https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-image: url(https://images.pexels.com/photos/6229/marketing-board-strategy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
 .card__image--history {
-  background-image: url(https://images.unsplash.com/photo-1622726918190-a26be3c7ad5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  background-image: url(https://www.brightoncenter.com/images/uploads/annual_reports/1st_Brighton_Center.jpg);
 }
-.card__image--flowers {
-  background-image: url(https://images.unsplash.com/photo-1642406415849-a410b5d01a94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+.card__image--leadership {
+  background-image: url(https://images.pexels.com/photos/5598284/pexels-photo-5598284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
-.card__image--river {
-  background-image: url(https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+.card__image--finances {
+  background-image: url(https://images.pexels.com/photos/3943739/pexels-photo-3943739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
-.card__image--fence {
+.card__image--board {
   background-image: url(https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
+}
+.card__image--about {
+  background-image: url(https://images.pexels.com/photos/6348129/pexels-photo-6348129.jpeg?cs=srgb&dl=pexels-liza-summer-6348129.jpg&fm=jpg);
 }
 .card__title {
   color: #696969;
@@ -489,4 +489,4 @@ img {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-}
+
