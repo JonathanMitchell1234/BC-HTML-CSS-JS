@@ -13,3 +13,8 @@ observer = new IntersectionObserver((entries) => {
 quote.forEach(quote => {
   observer.observe(quote);
 });
+
+
+
+
+
