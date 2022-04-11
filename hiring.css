@@ -298,3 +298,22 @@ animation:light 1s;
 .attribute {
     font-weight: bolder;
 }
+
+.we {
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.listheading {
+    font-family: 'Rokkitt', serif;
+    font-size: 25px;
+}
+
+ul {
+    text-align: center !important;
+    list-style-position: inside;
+    
+
+}
