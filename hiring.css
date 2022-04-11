@@ -49,6 +49,7 @@ button{
     align-items: center !important;
     justify-content: center!important;
     text-align: center;
+    
 }
 .light{
 background: -moz-linear-gradient(-45deg,  #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
@@ -96,6 +97,7 @@ animation:light 1s;
     transform: translate(-50%,-50%) rotate(-45deg);
     width: 100px;
     height: 100px;
+    
   }
   .share ul{
     position: relative;
@@ -256,12 +258,26 @@ animation:light 1s;
 .competitive {
     font-family: 'Rokkitt', serif;
     text-decoration: underline;
+    animation-duration: 3s;
+    animation: zoom-in-zoom-out 2s ease-out;
+}
 
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 .workhere {
     font-size: 15px;
     font-family: 'Rokkitt', serif;
+    
   
   }
 
@@ -307,6 +323,7 @@ animation:light 1s;
   color: rgb(59, 59, 59);
   padding-bottom: 3em;
   background-size: 100% 7em, 100% calc(100% - 7em)
+  
 
 }
 
@@ -339,6 +356,7 @@ animation:light 1s;
 .laurenquote {
     font-size: 20px;
     font-family: 'Rokkitt', serif;
+    
 }
 
 .attribute {

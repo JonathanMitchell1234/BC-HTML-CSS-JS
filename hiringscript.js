@@ -30,4 +30,20 @@ info.forEach(info => {
   observer.observe(info);
 });
 
+const header = document.querySelectorAll('.competitive');
+
+observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.classList.add('competitive');
+    } else {
+      entry.target.classList.remove('competitive');
+    }
+  });
+});
+
+header.forEach(header => {
+  observer.observe(header);
+});
+
 
