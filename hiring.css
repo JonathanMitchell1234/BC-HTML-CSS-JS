@@ -218,4 +218,48 @@ animation:light 1s;
     line-height: 100px;
     color: #fff;
     font-size:60px;
+  }
+
+  .why {
+      text-align: center;
+      font-family: 'Rokkitt', serif;
+      font-size: 60px;
+  }
+
+  .quote {
+      text-align: center;
+      font-family: 'Rokkitt', serif;
+
+  }
     
+  .flex-row-container {
+    background: rgb(253, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+.flex-row-container > .flex-row-item {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 100%;
+}
+
+.flex-row-item {
+  background-color: #ffffff;
+  border: none;
+}
+
+.competitive {
+    font-family: 'Rokkitt', serif;
+    text-decoration: underline;
+
+}
+
+.youtubevideo {
+    background-color: #027f51;
+    width: 100%;
+    top: 30%;
+    justify-content: left;
+}
