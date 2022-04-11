@@ -41,7 +41,7 @@ button{
     border:0;
     color:#fff;
     font-size:1.2em;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'Rokkitt', serif;
     font-weight:bold;
     cursor:pointer;
     margin:1em 2em;
@@ -257,9 +257,44 @@ animation:light 1s;
 
 }
 
+.workhere {
+    font-size: 15px;
+    font-family: 'Rokkitt', serif;
+  
+  }
+
 .youtubevideo {
     background-color: #027f51;
     width: 100%;
     top: 30%;
-    justify-content: left;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+/* .wrapper {
+    position:relative;
+    z-index: 1;
+    display: inline-block;
+} */
+
+.openpositions {
+    background: 
+    linear-gradient(to bottom right, #ff6e00 50%, transparent 50.5%) no-repeat bottom,
+    /* bottom part */
+    linear-gradient(0deg, #027f51, #027f51) no-repeat top;
+  /* top portion */
+  color: rgb(59, 59, 59);
+  padding-bottom: 3em;
+  background-size: 100% 7em, 100% calc(100% - 7em)
+}
+
+.laurenquote {
+    font-size: 20px;
+    font-family: 'Rokkitt', serif;
+}
+
+.attribute {
+    font-weight: bolder;
 }
