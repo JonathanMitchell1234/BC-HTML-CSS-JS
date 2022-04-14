@@ -1,7 +1,7 @@
 .hiringhero {
     background-image: url("team2.jpg");
     height: 600px;
-    width: 100% auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -13,6 +13,7 @@
  background: rgba(8, 8, 8, 0.595);
  overflow: hidden;
  height: 100%;
+ width: 100%;
 }
 
 .join {
@@ -49,6 +50,7 @@ button{
     align-items: center !important;
     justify-content: center!important;
     text-align: center;
+    
     
 }
 .light{
@@ -259,7 +261,7 @@ animation:light 1s;
     font-family: 'Rokkitt', serif;
     text-decoration: underline;
     animation-duration: 3s;
-    animation: zoom-in-zoom-out 2s ease-out;
+    animation: zoom-in-zoom-out 3s ease-out;
 }
 
 @keyframes zoom-in-zoom-out {
@@ -283,6 +285,9 @@ animation:light 1s;
 
 .youtubevideo {
     background-color: #027f51;
+    
+    
+
     width: 100%;
     top: 30%;
     align-items: center;
@@ -316,7 +321,7 @@ animation:light 1s;
 
 .openpositions {
     background: 
-    linear-gradient(to bottom right, #ff6e00 50%, transparent 50.5%) no-repeat bottom,
+    linear-gradient(to bottom right, #ff0000 50%, transparent 50.5%) no-repeat bottom,
     /* bottom part */
     linear-gradient(0deg, #027f51, #027f51) no-repeat top;
   /* top portion */
@@ -376,9 +381,36 @@ animation:light 1s;
 }
 
 ul {
-    text-align: center !important;
+    text-align: left !important;
     list-style-position: inside;
     
 
 }
+
+.currentopenings {
+  text-align: center;
+  
+  border: none;
+  margin-top: 50px;
+  background: 
+    linear-gradient(to bottom right, #ff0000 50%, transparent 50.5%) no-repeat bottom,
+    /* bottom part */
+    linear-gradient(0deg, #027f51, #027f51) no-repeat top;
+  /* top portion */
+  
+}
+
+
+.currentheading {
+  font-family: 'Rokkitt', serif;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bolder;
+
+}
+
+
+
+
+
 
