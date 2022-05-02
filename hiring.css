@@ -1,7 +1,7 @@
 .hiringhero {
     background-image: url("team2.jpg");
-    height: 600px;
-    width: 100%;
+    /* height: 600px;
+    width: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -255,6 +255,10 @@ animation:light 1s;
 .flex-row-item {
   background-color: #ffffff;
   border: none;
+  margin: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
 }
 
 .competitive {
@@ -284,7 +288,7 @@ animation:light 1s;
   }
 
 .youtubevideo {
-    background-color: #027f51;
+    background-color: #406b86;
     
     
 
@@ -321,7 +325,7 @@ animation:light 1s;
 
 .openpositions {
     background: 
-    linear-gradient(to bottom right, #ff0000 50%, transparent 50.5%) no-repeat bottom,
+    linear-gradient(to bottom right, #ff7b00 50%, transparent 50.5%) no-repeat bottom,
     /* bottom part */
     linear-gradient(0deg, #027f51, #027f51) no-repeat top;
   /* top portion */
@@ -461,35 +465,44 @@ ul {
 
 .fa-money-bill {
   font-size: 80px !important;
-    animation-name: spin-in;
-    animation-duration: 2s;
+  animation-name: fade-zoom;
+	animation-duration: 2s;
   
 }
-
+@keyframes fade-zoom {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
 .fa-chart-line {
   font-size: 80px !important;
-  animation-name: spin-in;
-    animation-duration: 2s;
+  animation-name: fade-zoom;
+	animation-duration: 2s;
 }
 
 .fa-hospital {
   font-size: 80px !important;
-  animation-name: spin-in;
-    animation-duration: 2s;
+  animation-name: fade-zoom;
+	animation-duration: 2s;
 }
 
 .laurenphoto {
   border-radius: 50%;
 }
-
-@keyframes spin-in {
+;
+/* @keyframes spin-in {
 	0% {
 		transform: scale(0) rotate(360deg);
 	}
 	100% {
 		transform: scale(1) rotate(-360deg);
 	}
-}
+} */
 
 .currentopenings {
   text-align: center;
@@ -518,10 +531,10 @@ ul {
 }
 .wrapper .parent-tab label,
 .wrapper .child-tab label{
-  background: #027f51;
+  background: #406b86;
   padding: 10px 20px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   cursor: pointer;
   border-radius: 3px;
@@ -530,7 +543,7 @@ ul {
   transition: all 0.3s ease;
 }
 .wrapper .parent-tab label:hover{
-  background: #027f51;
+  background: #ff6e00
 }
 .parent-tab input:checked ~ label,
 .child-tab input:checked ~ label{
@@ -598,3 +611,4 @@ input[type="radio"],
 input[type="checkbox"]{
   display: none;
 }
+
