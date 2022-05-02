@@ -15,14 +15,17 @@
     <link href="https://www.brightoncenter.com/includes/css/nivo-lightbox.css" rel="stylesheet">
     <link href="https://www.brightoncenter.com/includes/themes/default/default.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap CSS -->
+    
     <link href="https://www.brightoncenter.com/includes/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://www.brightoncenter.com/includes/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://www.brightoncenter.com/includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    
     <!-- Mega Menu CSS -->
     <link href="https://www.brightoncenter.com/includes/css/mega-menu.css" rel="stylesheet">
     <link href="https://www.brightoncenter.com/includes/css/mega-menu-responsive.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="hiring.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,6 +36,7 @@
     <link href="https://www.brightoncenter.com/includes/css/customized.css" rel="stylesheet">
     <link href="https://www.brightoncenter.com/includes/css/new-homepage.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://www.brightoncenter.com/images/uploads/events/favicon-16x16.png">
+    
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="https://www.brightoncenter.com/includes/js/modernizr-2.6.2.min.js"></script>
     <script>
@@ -56,6 +60,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112474274770281");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div id="masthead">
       <div class="container-fluid">
         <div class="row">
@@ -522,19 +556,20 @@
       <p class="quote">“At Brighton Center, you can make an impact and meaningful difference in the lives of families and in our community. We believe deeply in the potential of those we serve as we work in partnership with them to improve the quality of their lives, and we are dedicated to the professional growth and development of our staff who seek to lead. We are highly respected for our work due to our commitment to integrity, excellence, accountability, and quality of service.” <span class="attribute"> – Wonda Winkler, President & CEO</span>
       </p>
     </div>
+    <br>
     <div class="flex-row-container">
       <div class="flex-row-item">
-        <img src="money.jpeg" alt="Girl in a jacket" width="150" height="150">
+        <i class="fa fa-solid fa-money-bill"></i>
         <h3 class="competitive">Competitive Pay</h3>
         <p class="workhere">Brighton Center is a mission-driven agency that values our employees and invests in each employee through a generous compensation package.</p>
       </div>
       <div class="flex-row-item">
-        <img src="promotion.jpeg" alt="Girl in a jacket" width="150" height="150">
+        <i class="fa fa-solid fa-chart-line"></i>
         <h3 class="competitive">Internal Promotion</h3>
         <p class="workhere">Brighton Center values our employees and strives to promote from within when possible.</p>
       </div>
       <div class="flex-row-item">
-        <img src="medical.jpeg" alt="Girl in a jacket" width="200" height="150">
+        <i class="fa fa-solid fa-hospital"></i>
         <h3 class="competitive">Great Benefits</h3>
         <p class="workhere">Paid vacation time. Medical, Dental, Vision insurance. Paid sick leave. 403b with match option.</p>
       </div>
@@ -549,7 +584,7 @@
     <div class="openpositions">
       <div class="flex-row-container">
         <div class="flex-row-item">
-          <img src="Lauren.png" class="laurenphoto" alt="Girl in a jacket" id="lauren" width="250" height="300">
+          <img src="Lauren.png" class="laurenphoto" alt="Girl in a jacket" width="250" height="300">
         </div>
         <div class="flex-row-item">
           <p class="laurenquote">“I work at Brighton Center because this agency believes deeply in partnering with families to achieve their hopes and dreams. We are a community-based organization, with staff who are dedicated to our mission and core values. At Brighton Center, we believe the customers know their situation best, and understanding their opinion is vital to the service we provide. At the same time though, staff are also able to grow and develop to help achieve their true potential. Brighton Center allows customers and staff to excel and reach their hopes and dreams, and that environment is what makes us unique. Finally, Brighton Center’s commitment to excellence is seen through our Continuous Quality Improvement efforts.” <br>- <span class="attribute">Lauren Copeland, Development Director</span>
@@ -622,17 +657,40 @@
                 </ul>
                 </div>
           </div>
+  <div class="currentopenings">
+        <p class="currentheading">View Current Openings</p>
+    <button class=light onclick="displayIframe()" >Click Here</button>
+  <div id="iframeDisplay"></div>  
+  
+</div>
+
+<script>
+    function displayIframe() {
+        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e6e37c6-18b5-4119-9cda-f3d18e5f83dc&ccId=19000101_000001&type=JS&lang=en_US\" height=\"800px\" width=\"100%\" ></iframe>";
+
+    }
+</script>
           
-          <div class="currentopenings">
+          <!-- <div class="currentopenings">
             <h1 class="currentheading">Current Openings</h1>
-            <p class="mission">Brighton Center, Inc. is a National Service Employer and strongly encourages AmeriCorps, Peace Corps, and other national service alumni to apply. Brighton Center, Inc. extends equal employment opportunities and opportunities for advancement to all qualified persons at all organizational levels within the agency regardless of gender, race, color, religion, sexual orientation, national origin, age (40 or older), familial status, HIV/AIDS, pregnancy, military service, gender identity, marital status, disability, or any other protected class accordance with any applicable federal, state or local law.</p>
+            <p class="mission2">Brighton Center, Inc. is a National Service Employer and strongly encourages AmeriCorps, Peace Corps, and other national service alumni to apply. Brighton Center, Inc. extends equal employment opportunities and opportunities for advancement to all qualified persons at all organizational levels within the agency regardless of gender, race, color, religion, sexual orientation, national origin, age (40 or older), familial status, HIV/AIDS, pregnancy, military service, gender identity, marital status, disability, or any other protected class accordance with any applicable federal, state or local law.</p>
             <br>
             
-          <iframe src="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e6e37c6-18b5-4119-9cda-f3d18e5f83dc&ccId=19000101_000001&type=JS&lang=en_US" width="50%" height="700" style="border:none;">
+            
+          <iframe id="openingfeed" src="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e6e37c6-18b5-4119-9cda-f3d18e5f83dc&ccId=19000101_000001&type=JS&lang=en_US" width="100%" height="700" style="border: none;">
           </iframe>
+          </div> -->
+          
+          
+          
+          
+        
+          
+          
           
       
     <footer>
+
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-2">
@@ -791,9 +849,10 @@
       </div>
       <!-- /.modal-dialog -->
     </div>
+    
     <!-- /.modal -->
     <!-- Begin Constant Contact Active Forms -->
-    <<script src="hiringscript.js"></script>
+    <script src="hiringscript.js"></script>
     <script>
       var _ctct_m = "a756abd6da4ad8915f6a5b05301815cc";
     </script>
